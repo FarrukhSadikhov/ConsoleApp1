@@ -6,8 +6,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("стоимости поездки на такси в манатах, в зависимости от расстояния");
-            Console.Write("Введите расстояния:");
+            Console.WriteLine("Найти стоимость поездки на такси в манатах, в зависимости от расстояния");
+            Console.Write("Введите расстояние:");
           
             double usd = 1.7;
             double rate = 1.5;
@@ -15,7 +15,7 @@ namespace ConsoleApp1
 
             double price  = distance * rate * usd;
 
-            Console.WriteLine($"цена за поездку: {price} манат");
+            Console.WriteLine($"Цена за поездку: {price} манат");
             Console.ReadKey();
 
 
