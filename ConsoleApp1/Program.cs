@@ -11,12 +11,15 @@ namespace ConsoleApp1
             // 1 км стоит 1,5$
             // f - доллар равен курсу по ЦБ (на сегодняшний день 1$ - 1,7 манат)
 
-            var f = 2.55;
-            double x = Convert.ToDouble(Console.ReadLine());
+            //var f = 2.55;
 
-            double rasstoyaniye  = x * f;
+            double usd = 1.7;
+            double rate = 1.5;
+            double distance = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine($"расстоляние: {rasstoyaniye} манат");
+            double price  = distance * rate * usd;
+
+            Console.WriteLine($"цена за поездку: {price} манат");
             Console.ReadKey();
 
 
