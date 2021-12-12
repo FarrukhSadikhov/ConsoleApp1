@@ -12,7 +12,7 @@ namespace ConsoleApp1
             // f - доллар равен курсу по ЦБ (на сегодняшний день 1$ - 1,7 манат)
 
             var f = 2.55;
-            int x = Convert.ToInt16(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
 
             double rasstoyaniye  = x * f;
 
